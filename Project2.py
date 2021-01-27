@@ -1,4 +1,6 @@
+
 password = input('Введите пароль: ')
+
 
 
 try:                                        
