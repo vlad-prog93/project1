@@ -36,6 +36,8 @@ for i in range(count_users):
 try:
  count_number = int(input('Введите порядковый номер пользователя (от 1 до 4): '))
  print('')
+ years = (user1["age"] + user2["age"] + user3["age"] + user4["age"])/2
+ print(f'Среднее значение возраста: {years} ')
  choose_user = user_list[count_number - 1]
  print(f'''
 
