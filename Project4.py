@@ -13,11 +13,11 @@ city = input('Введите город: ')
 city = city.capitalize()
 
 
-if city == cities[2]: # город Лондон
+if tourists[0]['city'] == city: # город Лондон
  print(f'Турист {users[0]["name"]} возраст {users[0]["age"]}. Посетил город {cities[2]}')
-elif city == cities[0]: # город Москва
+elif tourists[1]['city'] == city: # город Москва
  print(f'Турист {users[1]["name"]} возраст {users[1]["age"]}. Посетил город {cities[0]}')
-elif city == cities[1]: # город Париж
+elif tourists[2]['city'] == city: # город Париж
  print(f'Турист {users[2]["name"]} возраст {users[2]["age"]}. Посетил город {cities[1]}')
 else:
  print('Такого города нет в базе') 
