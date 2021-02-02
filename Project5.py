@@ -1,6 +1,6 @@
 #get_absolute_url
 
-
+# должен получить на выходе:
 # https://yandex.ru/search/?text=pumpskill.ru&lr=213&clid=2186621&src=suggest_B
 
 def get_absolute_url(x, *args, **kwargs):
