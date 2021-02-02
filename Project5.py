@@ -18,4 +18,5 @@ def get_absolute_url(x, *args, **kwargs):
             l = l[0:-1]
             print(l)
 
+
 get_absolute_url('www.yandex.ru','search', text='pumpskill.ru', lr='213', clid='2186621', src='suggest_B')
